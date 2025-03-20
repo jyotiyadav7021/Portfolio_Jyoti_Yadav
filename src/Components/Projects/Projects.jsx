@@ -16,12 +16,14 @@ const Projects = () => {
           title="Employee Management System "
           main="An Employee Management System built with React.js and Tailwind CSS, using a local server backend to manage employee records with add, update, and delete functions in a user-friendly interface."
           imgSrc={emc}
+          link="https://portfolio-jyoti-yadav.netlify.app/"
         />
         <ProjectCard
           title="Login-Page"
           main="A responsive Login Page built with React.js and Tailwind CSS, 
           featuring a modern UI, input validation, and a seamless user experience."
           imgSrc={login}
+          link="https://portfolio-jyoti-yadav.netlify.app/"
         />
 
         <ProjectCard
@@ -30,24 +32,29 @@ const Projects = () => {
           as completed, with support for filtering and clearing completed tasks. Tasks are stored locally for 
           persistent usage."
           imgSrc={todo}
+          link="https://portfolio-jyoti-yadav.netlify.app/"
+          
         />
         <ProjectCard
           title="Product-Search-Engine"
           main="Created a basic product search engine using JavaScript, HTML, and CSS. Implemented a user-friendly interface 
           with real-time search capabilities for filtering products."
           imgSrc={landingp}
+          link="https://portfolio-jyoti-yadav.netlify.app/"
 
         />
         <ProjectCard
           title="Personal Portfolio"
           main="A personal portfolio website showcasing my skills, projects, and experience. Built with a modern tech stack, featuring a responsive design and smooth user experience."
           imgSrc={portfolio}
+          link="https://portfolio-jyoti-yadav.netlify.app/"
 
         />
         <ProjectCard
           title="Your-Food-App"
           main="A full-stack food delivery platform enabling users to browse restaurants, place orders, and track deliveries. Developed with an optimized backend for seamless performance."
           imgSrc={food}
+          link="https://portfolio-jyoti-yadav.netlify.app/"
 
         />
         
