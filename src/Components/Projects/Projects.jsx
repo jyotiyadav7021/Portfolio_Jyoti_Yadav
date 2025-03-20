@@ -16,14 +16,14 @@ const Projects = () => {
           title="Employee Management System "
           main="An Employee Management System built with React.js and Tailwind CSS, using a local server backend to manage employee records with add, update, and delete functions in a user-friendly interface."
           imgSrc={emc}
-          link="https://portfolio-jyoti-yadav.netlify.app/"
+          link="https://luminous-bunny-da6c53.netlify.app/"
         />
         <ProjectCard
           title="Login-Page"
           main="A responsive Login Page built with React.js and Tailwind CSS, 
           featuring a modern UI, input validation, and a seamless user experience."
           imgSrc={login}
-          link="https://portfolio-jyoti-yadav.netlify.app/"
+          link="https://rococo-shortbread-746bb5.netlify.app/"
         />
 
         <ProjectCard
@@ -54,7 +54,7 @@ const Projects = () => {
           title="Your-Food-App"
           main="A full-stack food delivery platform enabling users to browse restaurants, place orders, and track deliveries. Developed with an optimized backend for seamless performance."
           imgSrc={food}
-          link="https://portfolio-jyoti-yadav.netlify.app/"
+          link="https://stupendous-salmiakki-27b010.netlify.app/"
 
         />
         
