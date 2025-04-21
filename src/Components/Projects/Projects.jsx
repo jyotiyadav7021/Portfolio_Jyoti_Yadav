@@ -6,6 +6,8 @@ import todo from "../../assets/to-do.jpeg";
 import landingp from "../../assets/landing.jpeg";
 import emc from "../../assets/emc.png"
 import food from "../../assets/food.webp"
+import febri from "../../assets/febri.png"
+import rent from "../../assets/rent.png"
 
 const Projects = () => {
   return (
@@ -17,6 +19,33 @@ const Projects = () => {
           main="An Employee Management System built with React.js and Tailwind CSS, using a local server backend to manage employee records with add, update, and delete functions in a user-friendly interface."
           imgSrc={emc}
           link="https://luminous-bunny-da6c53.netlify.app/"
+        />
+        <ProjectCard 
+          title="Custom Fabrication Website "
+          main="A responsive website built with ReactJS, Vite, and Tailwind CSS to showcase Aarti Fabrication’s services. Features include project galleries, service details, and contact forms, ensuring a seamless user experience across devices."
+          imgSrc={febri}
+          link="https://680672ec258f4437c451e881--rad-mochi-1727c5.netlify.app/#home"
+        />
+        <ProjectCard
+          title="Property Booking Platform"
+          main="A responsive real estate booking site built with ReactJS, Redux, and Tailwind CSS. Features include property listings, filtering, booking, and state-managed user experience."
+          imgSrc={rent}
+          link="https://portfolio-jyoti-yadav.netlify.app/"
+
+        />
+        <ProjectCard
+          title="Personal Portfolio"
+          main="A personal portfolio website showcasing my skills, projects, and experience. Built with a modern tech stack, featuring a responsive design and smooth user experience."
+          imgSrc={portfolio}
+          link="https://portfolio-jyoti-yadav.netlify.app/"
+
+        />
+        <ProjectCard
+          title="Your-Food-App"
+          main="A full-stack food delivery platform enabling users to browse restaurants, place orders, and track deliveries. Developed with an optimized backend for seamless performance."
+          imgSrc={food}
+          link="https://stupendous-salmiakki-27b010.netlify.app/"
+
         />
         <ProjectCard
           title="Login-Page"
@@ -43,20 +72,7 @@ const Projects = () => {
           link="https://portfolio-jyoti-yadav.netlify.app/"
 
         />
-        <ProjectCard
-          title="Personal Portfolio"
-          main="A personal portfolio website showcasing my skills, projects, and experience. Built with a modern tech stack, featuring a responsive design and smooth user experience."
-          imgSrc={portfolio}
-          link="https://portfolio-jyoti-yadav.netlify.app/"
-
-        />
-        <ProjectCard
-          title="Your-Food-App"
-          main="A full-stack food delivery platform enabling users to browse restaurants, place orders, and track deliveries. Developed with an optimized backend for seamless performance."
-          imgSrc={food}
-          link="https://stupendous-salmiakki-27b010.netlify.app/"
-
-        />
+        
         
       </div>
     </div>
