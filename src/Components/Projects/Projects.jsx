@@ -7,7 +7,8 @@ import landingp from "../../assets/landing.jpeg";
 import emc from "../../assets/emc.png"
 import food from "../../assets/food.webp"
 import febri from "../../assets/febri.png"
-import rent from "../../assets/rent.png"
+import IFSC from "../../assets/IFSC.png"
+import trip from "../../assets/trip.jpg"
 
 const Projects = () => {
   return (
@@ -27,11 +28,17 @@ const Projects = () => {
           link="https://680672ec258f4437c451e881--rad-mochi-1727c5.netlify.app/#home"
         />
         <ProjectCard
-          title="Property Booking Platform"
-          main="A responsive real estate booking site built with ReactJS, Redux, and Tailwind CSS. Features include property listings, filtering, booking, and state-managed user experience."
-          imgSrc={rent}
+          title="AI Trip Planner"
+          main="A smart travel planning app that generates personalized itineraries based on user preferences like destination, budget, and duration. Built with React for dynamic UI and Tailwind CSS for responsive styling. Features include AI-based suggestions, day-wise plans, and real-time itinerary generation."
+          imgSrc={trip}
           link="https://portfolio-jyoti-yadav.netlify.app/"
 
+        />
+        <ProjectCard 
+          title="IFSC-Finder "
+          main="Built a full-stack app to search and filter bank details using IFSC codes, with CSV upload, pagination, and real-time API integration."
+          imgSrc={IFSC}
+          link="https://681304a14e84ef356f93826e--cozy-pixie-d6894f.netlify.app/"
         />
         <ProjectCard
           title="Personal Portfolio"
